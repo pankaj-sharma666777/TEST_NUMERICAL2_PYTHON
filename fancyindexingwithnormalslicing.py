@@ -1,0 +1,10 @@
+import numpy as np
+example = np.arange(1,17).reshape(4,4)
+print(example)
+print(example[0:,[1,2]])
+print("\n")
+print(example[0::2,[1,2]])
+print("\n")
+print(example[1:3,[1,2]])
+print("\n")
+print(example[:3,[1,2]])

@@ -28,7 +28,6 @@ print("\n\n")
 print(array[1:4,0:3])
 print(array[0::2,0::2])
 print(array[1:4,0:3])
-print(array[1:4,0:3])
 
 
 
