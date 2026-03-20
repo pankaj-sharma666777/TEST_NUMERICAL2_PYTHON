@@ -1,0 +1,11 @@
+import numpy as np
+array = np.arange(1,11)
+print(array)
+print(f"sum is {np.sum(array)}")
+print(f"mean is {np.mean(array)}")
+print(f"median is {np.median(array)}")
+print(f"minimum is {np.min(array)}")
+print(f"maximum is {np.max(array)}")
+print(f"standard deviation is {np.std(array)}")
+print(f"variance is {np.var(array)}")
+print(f"standard deviation is {np.sqrt(np.var(array))}")
