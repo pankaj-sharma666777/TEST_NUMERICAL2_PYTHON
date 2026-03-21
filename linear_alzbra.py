@@ -54,3 +54,30 @@ print(f"\nwhen multiplied with \nidentity matrix of\norder 4\n{np.dot(matrix_d,n
 matrix_e = np.linalg.inv(matrix_d)
 
 print(f"\nmatrix_e\n{matrix_e}")
+
+print(f"dot(\nmatrix_d,matrix_e\n{np.dot(matrix_d,matrix_e)}")
+
+matrix_f = np.random.randint(10,size=(3,4))
+
+matrix_g = np.random.randint(10,size=(4,3))
+ 
+print(f"\ndot(matrix_f,matrix_g)\n{np.dot(matrix_f,matrix_g)}")
+print(f"\ndot(matrix_g,matrix_f)\n{np.dot(matrix_g,matrix_f)}")
+
+vector_3 = np.random.randint(1,15,4)
+
+print(f"\nvector_3 \n{vector_3}")
+print(f"\nvdot of(vector_3,matrix_a) \n{np.vdot(vector_3,matrix_a)}")
+print(f"\nmatrix_a \n{matrix_a}")
+print(f"\nmatrix_b \n{matrix_b}")
+print(f"\nmatmul(matrix_a,matrx_b)\n{np.matmul(matrix_a,matrix_b)}")
+
+matrix_det = np.matrix(np.random.randint(10,size=(2,2)))
+
+print(f"\nmatrix_det is \n{matrix_det}")
+
+
+
+print(f"\n determinant is\n{np.linalg.det(matrix_det)}")
+
+
